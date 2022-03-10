@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta neme="description" content="Form para passar os valores de uma variável" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Document</title>
+</head>
+<body>
+    <fomr>
+        <fieldset>
+
+            <div class="form-single">
+                <label>Número da var "A" :</label>
+                <input type="number" min="1" max="9" id="valorA"/>
+            </div>
+
+            <div class="form-single">
+                <label>Número da var "b" :</label>
+                <input type="number" min="1" max="9" id="valorB"/>
+            </div>
+
+            <div class="form-single">
+                <label>Número da var "c" :</label>
+                <input type="number" min="1"  max="9" id="valorC"/>
+            </div>
+
+            <input type="submit" class="button" onclick="variaveis()"/>
+        </fieldset>
+    </fomr>
+
+    <div class="result-content" id="result"></div>
+
+    <script src="index.js"></script>
+</body>
+</html>
